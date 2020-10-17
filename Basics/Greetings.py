@@ -1,8 +1,8 @@
-# Greetings by name program
+# This program will give greetings
 
-# Accept a name - user input
-name = input("Enter your name: ")
+_na2me = input("Enter a name: ")
+print("Hello", _na2me, "Welcome to 2020 Fall Livermore Python Class")
 
-# Print the greeting with name
-print("Welcome to Python Programming", name)
-print(name, "Welcome to Python Programming!")
+var = 10
+
+Var = 20
