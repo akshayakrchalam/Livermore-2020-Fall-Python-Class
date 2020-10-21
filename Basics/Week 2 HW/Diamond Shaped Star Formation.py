@@ -1,4 +1,4 @@
-# Exercise 3 Print stars in diamond shape arrangement
+# Exercise 3 Print asterisks in diamond shape arrangement
 
 print("    *")
 print("   ***")
