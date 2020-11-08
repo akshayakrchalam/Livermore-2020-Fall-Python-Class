@@ -7,7 +7,10 @@ print("Hello Everyone!\nGood Afternoon.")
 print("Hello Everyone!Good Afternoon.\b")
 
 # Tab Delimiter
-print("Hello Everyone!\tGood Afternoon.")
+print("$$Hello Everyone!\tGood Afternoon.")
 
 # Carriage Return Delimiter
-print("Hello Everyone!abc\rGood After")
+print("Hello Everyone!abc\rGood Afternoon")
+
+# Multiple Delimiters
+print("Hello Everyone!abc\n\t\rGood Afternoon\b")
