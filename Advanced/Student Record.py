@@ -4,6 +4,7 @@ import sys
 
 dt = {}
 
+
 def main_menu():
     option = input(
         "To add a student record, type 'a'\nTo search for a record, type 's'\nTo print all records, type 'p'\nTo quit, type 'q'\nEnter your option: ")
@@ -20,6 +21,7 @@ def main_menu():
         print("Sorry. You entered a letter that is not an option. Please try again.")
         main_menu()
 
+
 def add_record():
     fname = input("Enter the first name: ")
     lname = input("Enter the last name: ")
@@ -32,7 +34,20 @@ def add_record():
     r_d["Room #"] = room
     i_d = randint(1, 100)
     dt[i_d] = r_d
-    print(dt)
+    # print(dt)
     main_menu()
+
+
+def search_record():
+    search_id = int(input("Enter a student ID to search for their record: "))
+    if search_id in dt.keys():
+        print("The record with ID:", search_id, dt[search_id])
+    main_menu()
+
+
+def print_record():
+    print("Printing all records in system: ", dt)
+    main_menu()
+
 
 main_menu()
